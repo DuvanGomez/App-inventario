@@ -1,0 +1,94 @@
+
+body
+{
+	font-family:Arial;
+	font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.table td, .table th {
+    padding:.5rem .5rem;
+}
+
+.form-control, .btn
+{
+	border-radius: 0;
+}
+.form-group .btn{
+	width:100%;
+}
+
+.inner 
+{
+  position: relative;
+}
+
+.inner .fas 
+{
+  position: absolute;
+  padding: 13px;
+  pointer-events: none;
+}
+
+.left .fas 
+{
+	left: 0px;
+	color:gray;
+}
+
+.left input 
+{
+	padding-left: 35px;
+	border: white solid;
+	border-bottom:0.5px lightgray solid;
+}
+
+td a {
+	margin:0;
+	padding: 5px 10px;
+}
+.fa-times{
+	color:white;
+	margin:0;
+}
+
+.precio
+{
+	text-align:center;
+	width:35%;
+	border-radius:15px;
+}
+
+.unid
+{
+	text-align:center;
+	padding:1.5rem;
+	border-radius: 100%;
+
+}
+
+.puntos
+{
+	max-width:40vh ;
+	width: 92%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.price, .unit
+{
+	border-top:1px lightgray solid;
+	border-bottom:0px; 
+}
+.price
+{
+	border-right: 1px lightgray solid;
+}
+
+.d-flex .btn{
+	width: 100%;
+}
